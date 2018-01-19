@@ -13,7 +13,7 @@ enddate: 2018-02-25        # machine-readable end date for the workshop in YYYY-
 instructor: ["Reshama Shaikh", "David Yakobovitch"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Esther Jackson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["reshama.shaikh@gmail.com", "david@yakobovitch.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: http://pad.software-carpentry.org/2018-02-24-nyas-python             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -46,10 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+<h4><!-- Info about workshop goes here --></h4>
 
 <h2 id="general">General Information</h2>
 
